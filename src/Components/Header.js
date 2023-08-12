@@ -41,7 +41,7 @@ const HeaderContainer = styled.div`
   }
 
   ${CartIconWrapper} {
-    margin-left: 20rem; /* Space between Profile and ShoppingCartIcon */
+    margin-left: 12rem; /* Space between Profile and ShoppingCartIcon */
   }
 `;
 
@@ -114,7 +114,7 @@ const GreenProfileIcon = styled(AccountCircleIcon)`
 `;
 
 const LoginButton = styled(Link)`
-  margin-left: 2rem;
+  margin-left: 1rem;
   padding: 0.2rem 0.8rem;
   background-color: #19c048;
   color: white;

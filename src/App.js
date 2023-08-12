@@ -22,18 +22,16 @@ function App() {
 
           <Routes>
             <Route path="/sellers" element={<SellersPage />} />
-          </Routes>
 
 
-          <Routes>
             <Route path="/" element={<HomePage />} />
-            {/* <Route path="/cart" element={<Cart />}/> */}
+            <Route path="/cart" element={<Cart />}/>
             <Route path="/payment" component={PaymentForm} />
             <Route path="/profile" element={<Profile/>}/>
-            {/* <Route path="/sellers" element={<SellersPage />} /> */}
+            <Route path="/sellers" element={<SellersPage />} />
              <Route path="/products" element={<Products/>}/>
             <Route path="/products/:category" element={<Products />} />
-        {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
+            <Route path="/product/:id" element={<ProductDetails />} />
             <Route path="/login" element={<Login />} />
             <Route path="/sign-up" element={<SignUp />} />
 
